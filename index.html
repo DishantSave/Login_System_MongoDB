@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(5, 253, 241);
+        }
+        
+        .container{
+            margin-left: 40%;
+            margin-top: 50px;
+        }
+
+        .container .btn{
+            width: 178px;
+            height: 25px
+        }
+    </style>
+</head>
+<body>
+    <form action="/sign_up" method="post">
+        <div class="container">
+        <h2>Student name</h2>
+        <input type="text" name="sname" placeholder="Student name">
+        <br>
+        <h2>Course Name</h2>
+        <input type="text" name="course" placeholder="Course name">
+        <br>
+        <h2>Age</h2>
+        <input type="text" name="age" placeholder="Age">
+        <br>
+        <h2>Email Address</h2>
+        <input type="text" name="email" placeholder="Email Address">
+        <br>
+        <br>
+        <button class="btn">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
